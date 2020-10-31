@@ -13,7 +13,10 @@
     "sprite:demo": "set SYS_NAME=demo && gulp 05-make-sprite",
     "imagesOptimize:demo": "set SYS_NAME=demo && gulp 06-images-optimize",
     "fontSpider:demo": "set SYS_NAME=demo && gulp 07-font-spider",
-    "sftpDist:demo": "set SYS_NAME=demo && gulp 09-sftp-dist"
+    "sftpDist:demo": "set SYS_NAME=demo && gulp 09-sftp-dist",
+
+    "dev:city": "set SYS_NAME=city && gulp 01-build-dev",
+    "build:city": "set SYS_NAME=city && gulp 03-build-dist"
   },
   "author": "luo0412",
   "devDependencies": {
