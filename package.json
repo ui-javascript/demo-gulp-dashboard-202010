@@ -16,7 +16,17 @@
     "sftpDist:demo": "set SYS_NAME=demo && gulp 09-sftp-dist",
 
     "dev:city": "set SYS_NAME=city && gulp 01-build-dev",
-    "build:city": "set SYS_NAME=city && gulp 03-build-dist"
+    "build:city": "set SYS_NAME=city && gulp 03-build-dist",
+    "dev:devops": "set SYS_NAME=devops && gulp 01-build-dev",
+    "dev:finance": "set SYS_NAME=finance && gulp 01-build-dev",
+    "dev:iot": "set SYS_NAME=iot && gulp 01-build-dev",
+    "dev:logistics": "set SYS_NAME=logistics && gulp 01-build-dev",
+    "dev:mall": "set SYS_NAME=mall && gulp 01-build-dev",
+    "dev:medicine": "set SYS_NAME=medicine && gulp 01-build-dev",
+    "dev:operation": "set SYS_NAME=operation && gulp 01-build-dev",
+    "dev:politics": "set SYS_NAME=politics && gulp 01-build-dev",
+    "dev:traffic": "set SYS_NAME=traffic && gulp 01-build-dev",
+    "dev:weather": "set SYS_NAME=weather && gulp 01-build-dev"
   },
   "author": "luo0412",
   "devDependencies": {
